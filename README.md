@@ -22,3 +22,6 @@ The code is organized in separate files:
 index.html: The main html file that contains the structure of the website.
 style.css: The css stylesheet that defines the appearance of the website.
 script.js: Contains the JavaScript code responsible for API calls, search functionality, and showing results of the search on the page.
+
+![sample](https://github.com/user-attachments/assets/e7e1269e-ba31-4493-9963-84ecf35f2b2f)
+
