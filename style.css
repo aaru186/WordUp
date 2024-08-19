@@ -1,0 +1,196 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #d1e3fbe9;
+}
+
+#main-header{
+    background-color:#b4cef0;
+}
+
+#container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+#header-text{
+    font-size: 3.2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    color:#ffffff;
+
+    text-align: center;
+
+    margin: 30px 0px;
+}
+
+
+#box{
+    margin: 200px 300px 300px 300px;
+    padding: 50px 30px 50px 30px;
+    border-radius: 10px;
+
+    position: relative;
+    
+
+    background-color: rgb(255, 255, 255);
+}
+
+#search-bar{
+    display: flex;
+    gap: 50px;
+}
+
+#search-box{
+    padding: 15px 5px 8px 5px;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid #13294b;
+    border-radius: 3px;
+
+    width: 80%;
+    flex: 2;
+
+    font-size: 1.2rem;
+    color: #000000db;
+}
+
+::placeholder{
+    font-size: 1.2rem;
+    color: #ababacdb;
+}
+
+#search-button{
+    height: 47px;
+    flex:  0.10;
+    
+    padding: 5px 9px;
+    border: none; 
+    border-radius: 25px;
+    margin-top: 3px;
+
+    background-color:#13294b;
+    color:#012317;
+
+}
+
+#search-button img{
+    width: 30px;
+    align-self: center
+}
+
+#result{
+    margin: 20px 5px 0px 5px;
+
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+#word{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    font-size: 2.3rem;
+
+    color:#96abc6;    
+}
+
+
+#word-type{
+    color: #13294bcf;
+    font-size: 1.1rem;
+}
+
+#pronounciation{
+    color: #838383;
+    font-size: 1rem;
+    font-style: italic;
+
+    margin-bottom: 15px;
+}
+
+#meaning{
+    margin-top:3px;
+
+    font-size: 1.2rem;
+}
+
+#examples{
+    margin-top: 8.5px;
+    margin-bottom: 15px;
+    padding: 15px 5px 15px 7px;
+    border-radius: 6px;
+
+    background-color: #96abc67f;
+}
+
+#readMore-button{
+    margin-top: 15px;
+    padding: 11px 10px;
+    border: none;
+    border-radius: 6px;
+
+    background-color:#96abc660;
+}    
+
+#readMore-button:hover{
+    background-color:#13294bf8
+}    
+
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color:#13294b;
+}
+
+a:hover{
+    color:#d6e4f7;
+}
+
+
+#space{
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 800px){
+    #box{
+        margin: 200px 20px 300px 20px;
+        padding: 50px 10px 50px 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
