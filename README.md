@@ -10,14 +10,14 @@ WordUp is a simple dictionary website that allows users to search for words and 
 
 *Error Handling*: If the user enters a word that does not exist or leaves the search field empty, WordUp will display a message saying "No exact match found.", ensuring a user-friendly experience.
 
-### **Technologies Used**:
+### **Built With**:
 *HTML*: Used to create the basic structure and layout of the website, including the header, search input field, and result display areas.
 
 *CSS*: Used to stylize the entire website, to provide a clean interface for earier user accessibility.
 
 *JavaScript*: Responsible for the functionality of the site. JavaScript handles API integration, manages the search input, and displays the results after a successful API call. It also controls the error messages when input is invalid.
 
-### **Code Structure**:
+### **Code Layout**:
 The code is organized in separate files:
 index.html: The main html file that contains the structure of the website.
 style.css: The css stylesheet that defines the appearance of the website.
